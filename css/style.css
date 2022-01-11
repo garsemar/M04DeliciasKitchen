@@ -31,27 +31,89 @@ header li a{
 header li a:hover{
     color: #7ABA96;
 }
-main{
+aside{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    text-align: center;
+    margin-left: 20%;
+}
+.sobre img{
+    width: 10em;
+    height: auto;
+    margin: 15px 0px 15px 0px;
+}
+.sobre p{
+    text-align: justify;
+    width: 15rem;
+    margin-left: 1ch;
+    color: grey;
+}
+.libro{
+    background-color: lightgrey;
+    padding: 10px
+}
+.libro p{
+    text-align: justify;
+    width: 15rem;
+    color: grey;
+}
+aside a{
+    text-decoration: none;
+    color: black;
+    background-color: #7ABA96;
+}
+article{
+    width: 50%;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-main div{
-    background-color: red;
-
-    width: 30em;
+article section{
+    width: 25em;
+    padding-right: 20px;
     height: auto;
     text-align: center;
-    padding-right: 20px;
-    padding-left: 20px;
+    margin-bottom: 10px;
 }
-main div h4{
-    font-size: 1.3vh;
+article section a{
+    text-align: center;
+    font-size: 1.6ch;
+    list-style: none;
+    text-decoration: none;
+    color: black;
 }
-main div img{
-    width: 30em;
+article section a:hover{
+    color: #8A8070;
+}
+article section img{
+    width: 25em;
     height: auto;
 }
-main div p{
+article section p:nth-child(3){
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px #7ABA96;
+    border-style: solid none;
+}
+article section p{
     text-align: justify;
+}
+footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    background-color: black;
+    padding: 20px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+footer ul li a:hover{
+    color: #7ABA96;
 }
