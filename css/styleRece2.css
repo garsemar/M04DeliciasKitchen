@@ -32,73 +32,29 @@ header li a{
 header li a:hover{
     color: #7ABA96;
 }
-.body{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
 article{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    float: left;
-    margin: 20px;
-    width: 38em;
-    height: auto;
+    padding: 20px;
 }
-article img{
-    width: 38em;
-    padding-bottom: 10px;
-    height: auto;
-}
-article p{
-    padding: 10px 0px 10px 0px;
-}
-.hor{
-    padding-top: 0px;
-    color: grey;
+article h1{
+    border-top: 0px;
+    border-bottom: 1px black;
+    border-style: solid none;
 }
 article div{
-    margin-bottom: 10px;
+    padding: 10px;
+    border-top: 0px;
+    border-bottom: 1px black;
+    border-style: solid none;
 }
-article div h3{
-    margin-bottom: 10px;
+article div:last-child{
+    border-bottom: 0px;
 }
-.ingre ul{
-    text-decoration: none;
-    list-style: none;
-}
-aside{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    text-align: center;
-    width: auto;
-}
-.sobre img{
-    width: 10em;
-    height: auto;
-    margin: 15px 0px 15px 0px;
-}
-.sobre p{
-    text-align: justify;
-    width: 15rem;
-    margin-left: 1ch;
-    color: grey;
-}
-.libro{
-    background-color: lightgrey;
-    padding: 10px
-}
-.libro p{
-    text-align: justify;
-    width: 15rem;
-    color: grey;
-}
-aside a{
+article div h3 a{
     text-decoration: none;
     color: black;
-    background-color: #7ABA96;
+}
+article div h3 a:hover{
+    color: #7ABA96;
 }
 footer{
     position: relative;

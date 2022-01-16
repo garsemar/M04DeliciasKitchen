@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 header{
     text-align: center;
@@ -102,9 +103,10 @@ article section p{
     text-align: justify;
 }
 footer{
-    position: absolute;
-    top: 115%;
+    position: relative;
+    top: 100%;
     width: 100%;
+    margin-top: 10px;
 }
 footer ul{
     display: flex;
